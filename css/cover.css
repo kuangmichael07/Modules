@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Allura';
+@import 'https://fonts.googleapis.com/css?family=Allura|Dancing+Script|Kaushan+Script|Pacifico|Shadows+Into+Light';
 
 .cover-container {
 	/*background-color:rgb(157, 54, 75);*/
@@ -29,6 +29,7 @@
 .slogan p {
 	font-family: 'Allura', cursive;
 	font-size: 1.5em;
+	text-align: center;
 }
 
 .promo {
@@ -39,4 +40,11 @@
 	left: 0;
 	right: 0;
 }
+
+.promo a {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 1.5em;
+	text-align: center;
 }
+}
+
