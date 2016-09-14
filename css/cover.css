@@ -16,6 +16,8 @@
 	margin: 0;
 	/*background: #f9f4ea;*/
 	background-image: url("http://ironchefshellie.com/wp-content/uploads/2016/01/Japanese-Cheesecake_1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .slogan {
