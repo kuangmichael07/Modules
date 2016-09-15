@@ -25,23 +25,6 @@
   	background-image: url("http://ironchefshellie.com/wp-content/uploads/2016/01/Japanese-Cheesecake_1.jpg");
 }
 
-@supports (background-image: filter(url('i.jpg'), blur(1px))) {
-  .content {
-    transform: translateZ(0);
-  }
-  .content-enhanced {
-    animation: sharpen .5s both;
-  }
-  @keyframes sharpen {
-    from {
-      background-image: filter(url(http://ironchefshellie.com/wp-content/uploads/2016/01/Japanese-Cheesecake_1.jpg), blur(20px));
-    }
-    to {
-      background-image: filter(url(http://ironchefshellie.com/wp-content/uploads/2016/01/Japanese-Cheesecake_1.jpg), blur(0px));
-    }
-  }
-}
-
 
 .slogan {
 	position: absolute;
