@@ -40,7 +40,7 @@
 	position: absolute;
 	margin: 0.5em auto;
 	height: ;
-	width:50% ;
+	width:100% ;
 	left: 0;
 	right: 0;
 	bottom: 1em;
@@ -65,12 +65,11 @@
 		bottom: 0.8rem;
 		left: 0.8rem;
 		right: 0.8rem;
-		background-image: url("http://ironchefshellie.com/wp-content/uploads/2016/01/Japanese-Cheesecake_FEATURE.jpg");
-
+		background-image: url("http://ironchefshellie.com/wp-content/uploads/2016/01/Japanese-Cheesecake_4.jpg");
 	}	
 	
 	.slogan {
-		bottom: 5em;
+		bottom: 7em;
 	}
 	
 	.slogan p {
@@ -79,12 +78,47 @@
 	}
 	
 	.promo {
-		bottom: 2em;
+		bottom: 4em;
 	}
 	
 	.promo a {
 		font-size: 2.5em;
 		color: #ffc110;
+	}
+	
+}
+
+@media screen and  (min-width: 72em) {
+	.content {
+	top: 1rem;
+	bottom: 1rem;
+	left: 1rem;
+	right: 1rem;
+	background-image: url("http://ironchefshellie.com/wp-content/uploads/2016/01/Japanese-Cheesecake_FEATURE.jpg");
+	}
+
+	.slogan {
+		bottom: 8em;
+	}
+	
+	.slogan p {
+		font-size: 3.5em;
+		color: white;
+		text-align:justify;
+		margin-left: 2em;
+		margin-right: auto;
+	}
+	
+	.promo {
+		bottom: 4em;
+	}
+	
+	.promo a {
+		font-size: 3em;
+		color: #ffc110;
+		text-align:right;
+		margin-left: auto;
+		margin-right: 2em;
 	}
 	
 }
