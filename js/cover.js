@@ -1,6 +1,6 @@
 window.onload = function loadStuff() {
   var win, doc, img, header, enhancedClass;
-
+  alert("Hey");
   if (!('addEventListener' in window)) {
     return;
   }
