@@ -34,10 +34,10 @@
   }
   @keyframes sharpen {
     from {
-      background-image: filter(url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/401949/largeimg.jpg), blur(20px));
+      background-image: filter(url(http://ironchefshellie.com/wp-content/uploads/2016/01/Japanese-Cheesecake_1.jpg), blur(0px));
     }
     to {
-      background-image: filter(url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/401949/largeimg.jpg), blur(0px));
+      background-image: filter(url(http://ironchefshellie.com/wp-content/uploads/2016/01/Japanese-Cheesecake_1.jpg), blur(0px));
     }
   }
 }
