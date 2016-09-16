@@ -29,7 +29,6 @@
 @supports (background-image: filter(url('i.jpg'), blur(1px))) {
   .content {
     transform: translateZ(0);
-    background-image: url(http://sev.h-cdn.co/assets/15/50/980x490/landscape-1449582432-fish.jpg);
   }
   .content-enhanced {
     animation: sharpen .5s both;
