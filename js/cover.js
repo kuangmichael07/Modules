@@ -36,11 +36,12 @@ window.onload = function loadStuff() {
   }());
   alert("Hey!!!");
   img.onload = function() {
-    alert('loaded!')
+    
     header.className += ' ' + enhancedClass;
   };
 
   if (bigSrc) {
+    alert('loaded!')
     img.src = bigSrc;
   }
 };
