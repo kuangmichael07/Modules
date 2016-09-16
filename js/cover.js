@@ -36,6 +36,7 @@ window.onload = function loadStuff() {
   }());
 
   img.onload = function() {
+    alert('loaded!')
     header.className += ' ' + enhancedClass;
   };
 
