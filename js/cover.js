@@ -19,7 +19,6 @@ window.onload = function loadStuff() {
 
       var bgStyle, i, l = styles.length;
       for (i = 0; i < l; i++) {
-
         if (styles[i].selectorText &&
           styles[i].selectorText == '.' + enhancedClass) {
           
@@ -32,7 +31,7 @@ window.onload = function loadStuff() {
       return bgStyle;
     }());
       
-    return bgDecl && bgDecl.match(/(?:\(['|"]?)(.*?)(?:['|"]?\))/)[1];
+    return bgDecl;
   }());
   alert("Hey!!!");
   img.onload = function() {
