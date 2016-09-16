@@ -29,6 +29,7 @@
 @supports (background-image: filter(url('i.jpg'), blur(1px))) {
   .content {
     transform: translateZ(0);
+    margin: 5px;
   }
   .content-enhanced {
     animation: sharpen .5s both;
