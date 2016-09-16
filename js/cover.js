@@ -1,10 +1,10 @@
 window.onload = function loadStuff() {
   var win, doc, img, header, enhancedClass;
-  alert("Hey");
+  
   if (!('addEventListener' in window)) {
     return;
   }
-
+  
   win = window;
   doc = win.document;
   img = new Image();
@@ -12,7 +12,7 @@ window.onload = function loadStuff() {
   enhancedClass = 'content-enhanced';
 
   var bigSrc = (function() {
-
+    alert("Hey");
     var styles = doc.querySelector('style').sheet.cssRules;
 
     var bgDecl = (function() {
