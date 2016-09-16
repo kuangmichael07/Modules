@@ -12,7 +12,7 @@ window.onload = function loadStuff() {
   enhancedClass = 'content-enhanced';
 
   var bigSrc = (function() {
-    alert("Hey");
+    
     var styles = doc.querySelector('style').sheet.cssRules;
 
     var bgDecl = (function() {
@@ -34,7 +34,7 @@ window.onload = function loadStuff() {
       
     return bgDecl && bgDecl.match(/(?:\(['|"]?)(.*?)(?:['|"]?\))/)[1];
   }());
-
+  alert("Hey!!!");
   img.onload = function() {
     alert('loaded!')
     header.className += ' ' + enhancedClass;
