@@ -10,15 +10,19 @@ window.onload = function loadStuff() {
   img = new Image();
   header = doc.querySelector('.content');
   enhancedClass = 'content-enhanced';
+var test = doc.querySelector('style').sheet.cssRules;
+alert(test);
+
 
   var bigSrc = (function() {
     
     var styles = doc.querySelector('style').sheet.cssRules;
-
+    
     var bgDecl = (function() {
 
       var bgStyle, i, l = styles.length;
       for (i = 0; i < l; i++) {
+
         if (styles[i].selectorText &&
           styles[i].selectorText == '.' + enhancedClass) {
           
@@ -31,16 +35,15 @@ window.onload = function loadStuff() {
       return bgStyle;
     }());
       
-    return bgDecl;
+    return bgDecl && bgDecl.match(/(?:\(['|"]?)(.*?)(?:['|"]?\))/)[1];
   }());
-  alert("Hey!!!");
+  
   img.onload = function() {
-    
+    alert('loaded!')
     header.className += ' ' + enhancedClass;
   };
 
   if (bigSrc) {
-    alert('loaded!')
     img.src = bigSrc;
   }
 };
